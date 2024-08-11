@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  padding-right: 7.3rem;
+}
+
+img {
+  width: 300px;
+  border-radius: 8px;
+  margin: auto;
+}
