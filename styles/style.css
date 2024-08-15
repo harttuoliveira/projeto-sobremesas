@@ -26,29 +26,47 @@ body {
   background-color: var(--Rose-50);
 }
 
-main {
-  position: relative;
-}
+
 
 h1 {
   padding: 1.3rem 1rem;
 }
 
-/*button {
+a {
   background-color: white;
-  position: absolute;
-  border: 1px solid lightgray;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid gray;
   padding: 0.75rem 1rem;
   border-radius: 5rem;
-  font-weight: 600;
-  cursor: pointer;
+  text-decoration: none;
+  position: relative;
 
-  top: 173px;
-  left: 67px;
-}*/
+  top: -30px;
+  left: 50px;
+}
+
+a:hover {
+}
 
 p {
   font-weight: 600;
+}
+
+.informacoes {
+  padding: 1rem 0rem;
+}
+
+.adicionar {
+  font-size: 16px;
+  padding: 8px 5px 0px 0px;
+  text-decoration: none;
+  position: relative;
+  width: auto;
+  font-size: 15px;
+
+  top: 4px;
 }
 
 .preco {
@@ -57,6 +75,8 @@ p {
 }
 
 .produto {
-  color: lightgray;
+  font-size: 14px;
+  color: gray;
   font-weight: normal;
+  padding: 3px 0px;
 }
