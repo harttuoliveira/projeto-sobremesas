@@ -47,11 +47,9 @@ a {
   left: 50px;
 }
 
-a:hover {
-}
-
 p {
   font-weight: 600;
+  padding: 0.10rem 0rem;
 }
 
 .informacoes {
