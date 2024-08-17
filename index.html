@@ -12,7 +12,7 @@
   <h1>Sobremesas</h1>
   <main>
     <div class="sobremesas"><img src="images/image-waffle-mobile.jpg" alt="Waffle"> </div>
-    <a href="#"><img class="adicionar" src="images/icon-add-to-cart.svg" alt="">Adicionar ao carrinho</a>
+    <a href="#" id="compra" type="number" value="1"><img class="adicionar" src="images/icon-add-to-cart.svg" alt="">Adicionar ao carrinho</a>
     <div class="informacoes">
       <p class="produto">Waffle</p>
       <p>Waffle com morangos</p>
@@ -82,12 +82,12 @@
       <p>Panna cotta de baunilha</p>
       <p class="preco">R$0,00</p>
     </div>
-  </main>
 
-  <script src="script.js">
-    function aumentar() { valor++; document.getElementById("valor").innerHTML = valor; }
-    function diminuir() { valor--; document.getElementById("valor").innerHTML = valor; }
-    
-  </script>
+    <aside>
+      <h2>Seu Carrinho (0)</h2>
+      <img src="images/illustration-empty-cart.svg" alt="">
+      <p>Seus itens adicionados aparecerão aqui</p>
+    </aside>
+  </main>
 </body>
 </html>

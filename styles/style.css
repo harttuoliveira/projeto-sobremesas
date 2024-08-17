@@ -32,6 +32,10 @@ h1 {
   padding: 1.3rem 1rem;
 }
 
+h2 {
+  color: var(--Red);
+}
+
 a {
   background-color: white;
   color: black;
@@ -50,6 +54,25 @@ a {
 p {
   font-weight: 600;
   padding: 0.10rem 0rem;
+}
+
+aside {
+  background-color: white;
+  padding: 1.3rem;
+  margin-bottom: 20px;
+  width: 270px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+aside > img {
+  width: 150px;
+  margin: 40px 0px 10px 50px; 
+}
+
+aside > p {
+  color: gray;
+  font-size: 1rem;
 }
 
 .informacoes {
